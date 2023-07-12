@@ -1,127 +1,132 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
-	<head>
+<head>
+	<title>Asia's Kitchen</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
 
-		<title>Asia's Kitchen</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="main.css">
+<body>
 
-	</head>
-	
-	<body>
-		 
+	<nav class="navbar navbar-expand-md">
+		<a class="navbar-brand" href="#">Logo</a>
+		<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="main-navigation">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="./">Menu</a>
+				</li>
 
-		<nav class="navbar navbar-expand-md">
-			<a class="navbar-brand" href="#">Logo</a>
-			<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="main-navigation">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" href="./">Menu</a>
-					</li>
-					
-					<li class="nav-item">
-						<a class="nav-link" href="#">About Us</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-
-		<header class="page-header header container-fluid">
-			<div class="overlay"></div>
-			<div class="description">
-				<h1>Welcome to Asia's Kitchen!</h1>
-				<p>where we strive to provide our customers with the most authentic and delicious Vegan Eats!</p>
-				<button class="btn btn-outline-secondary btn-lg">Order Now</button>
-			</div>
-		</header>
-		
-		<div class="container features">
-			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-6">
-					<h3 class="feature-title"></h3>
-					<img src="images/veggie.jpg" class="img-fluid">
-					<p>Our delicious Veggie Stir-fry</p>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-6">
-					<h3 class="feature-title"></h3>
-					<img src="images/bowl.jpg" class="img-fluid">
-					<p>Our Delicious coconut chickpea bowl</p>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-6">	
-					<h3 class="feature-title">Reserve a table</h3>
-					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Name" name="">
-					</div>
-					<div class="form-group">
-						<input type="email" class="form-control" placeholder="Phone Number" name="phonenumber">
-					</div>
-					<div class="form-group">
-						<textarea class="form-control" rows="4"></textarea>
-					</div>
-					<input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
-				</div>
-			</div> 
+				<li class="nav-item">
+					<a class="nav-link" href="#">About Us</a>
+				</li>
+			</ul>
 		</div>
-		
-		<div class="background">
-			<div class="container team">
-				<div class="row">
-					<div class="card col-lg-3 col-md-3 col-sm-4 text-center">
-						<img class="card-img-top rounded-circle" src="images/me.jpg" alt="Card image">
-						<div class="card-body">
-							<h4 class="card-title">Ms.Garcia</h4>
-							<p class="card-text">C.E.O</p>
-						</div>
+	</nav>
+
+	<header class="page-header header container-fluid">
+		<div class="overlay"></div>
+		<div class="description">
+			<h1>Welcome to Asia's Kitchen!</h1>
+			<p>where we strive to provide our customers with the most authentic and delicious Vegan Eats!</p>
+			<button class="btn btn-outline-secondary btn-lg">Order Now</button>
+		</div>
+	</header>
+
+	<div class="container features">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-6">
+				<h3 class="feature-title"></h3>
+				<img src="images/veggie.jpg" class="img-fluid">
+				<p>Our delicious Veggie Stir-fry</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6">
+				<h3 class="feature-title"></h3>
+				<img src="images/bowl.jpg" class="img-fluid">
+				<p>Our Delicious coconut chickpea bowl</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6">
+				<h3 class="feature-title">Reserve a table</h3>
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Name" name="">
+				</div>
+				<div class="form-group">
+					<input type="email" class="form-control" placeholder="Phone Number" name="phonenumber">
+				</div>
+				<div class="form-group">
+					<textarea class="form-control" rows="4"></textarea>
+				</div>
+				<input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+			</div>
+		</div>
+	</div>
+
+	<div class="background">
+		<div class="container team">
+			<div class="row">
+				<div class="card col-lg-3 col-md-3 col-sm-4 text-center">
+					<img class="card-img-top rounded-circle" src="images/me.jpg" alt="Card image">
+					<div class="card-body">
+						<h4 class="card-title">Ms.Garcia</h4>
+						<p class="card-text">C.E.O</p>
 					</div>
-		
-		<footer class="page-footer">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-md-8 col-sm-12">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="page-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-8 col-sm-12">
 					<h6 class="text-uppercase font-weight-bold">Additional Information</h6>
-					<p>Asia Garcia is a visionary leader with a passion for promoting a sustainable and compassionate lifestyle through her roles as CEO of a vegan restaurant, former realtor in Dubai, and executive chair at Bank of America. A fervent believer in the power of eating well without harming animals or the environment, Ms.Garcia has dedicated her life to creating a positive impact on both individuals and the world.
-With a diverse background, Garcia brings a unique perspective to the world of plant-based cuisine. Her journey began as a successful realtor in Dubai, where she honed her entrepreneurial skills and developed a deep appreciation for international cultures and diverse cuisines. This experience fueled her desire to find innovative ways to bridge her passion for business with her commitment to animal welfare and environmental sustainability.
-As the CEO of this new vegan restaurant, she embraces the challenge of catering to people of all ages and even pets, providing a welcoming and inclusive environment for everyone. </p>
-				
+					<p>Asia Garcia is a visionary leader with a passion for promoting a sustainable and compassionate lifestyle through her roles as CEO of a vegan restaurant, former realtor in Dubai, and executive chair at Bank of America. A fervent believer in the power of eating well without harming animals or the environment, Ms.Garcia has dedicated her life to creating a positive impact on both individuals and the world. With a diverse background, Garcia brings a unique perspective to the world of plant-based cuisine. Her journey began as a successful realtor in Dubai, where she honed her entrepreneurial skills and developed a deep appreciation for international cultures and diverse cuisines. This experience fueled her desire to find innovative ways to bridge her passion for business with her commitment to animal welfare and environmental sustainability. As the CEO of this new vegan restaurant, she embraces the challenge of catering to people of all ages and even pets, providing a welcoming and inclusive environment for everyone.</p>
+				</div>
+
 				<div class="col-lg-4 col-md-4 col-sm-12">
 					<h6 class="text-uppercase font-weight-bold">Contact</h6>
 					<p>Al Barsha - Al Barsha South - Dubai - United Arab Emirates
-					<br/>Asiaskitchen@mywebsite.com
-					<br/>+ 01 222 333 55
-					<br/>+ 01 444 666 77</p>
+						<br/>Asiaskitchen@mywebsite.com
+						<br/>+ 01 222 333 55
+						<br/>+ 01 444 666 77</p>
 				</div>
 			</div>
-			<div class="footer-copyright text-center">© 2023 Copyright: Asia Garcia</div>
-		</footer>
-		
-		<script src="jquery-3.5.1.min.js"></script>
-		<script src="bootstrap/js/bootstrap.min.js"></script>
-		<script src="main.js"></script>
-    
-		<div id="demo-modal" class="modal fade">
-			<div class="modal-dialog modal-lg modal-dialog-centered">
-				<div class="modal-content">
-					<div class="modal-header">
-						<img class="rounded-circle mx-auto" src="images/email-icon.png" alt="modal image">
-						<button type="button" class="close" data-dismiss="modal" aria-label="close">
-							<span>x</span>
-						</button>
-					</div>
-					<div class="modal-body text-center">
-						<h4>Subscribe to our newsletter</h4>
-						<p>STAY IN TOUCH</p>
-						<div class="input-group">
-							<input type="email" class="form-control" placeholder="Enter your email address" name="email">
-							<div class="input-group-append">
-								<input type="submit" class="btn" value="Subscribe">
-							</div>
+		</div>
+		<div class="text-center">© 2023 Copyright: Asia Garcia</div>
+	</footer>
+
+	<script src="jquery-3.5.1.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="main.js"></script>
+
+	<div id="demo-modal" class="modal fade">
+		<div class="modal-dialog modal-lg modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<img class="rounded-circle mx-auto" src="images/email-icon.png" alt="modal image">
+					<button type="button" class="close" data-dismiss="modal" aria-label="close">
+						<span>x</span>
+					</button>
+				</div>
+				<div class="modal-body text-center">
+					<h4>Subscribe to our newsletter</h4>
+					<p>STAY IN TOUCH</p>
+					<div class="input-group">
+						<input type="email" class="form-control" placeholder="Enter your email address" name="email">
+						<div class="input-group-append">
+							<input type="submit" class="btn" value="Subscribe">
 						</div>
-					</body>
-					</html>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
