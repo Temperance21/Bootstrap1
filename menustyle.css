@@ -46,7 +46,7 @@ h1 {
     text-align: center;
     font-size: 3em;
     margin-bottom: 0.5em;
-    transition: color 0.3s;
+   color: rgb(255, 255, 255);
 }
 
 h1:hover {
